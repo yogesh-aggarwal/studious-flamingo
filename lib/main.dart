@@ -9,6 +9,9 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: "Poppins",
+      ),
       home: Scaffold(
         body: SafeArea(
           child: Flamingo(),
