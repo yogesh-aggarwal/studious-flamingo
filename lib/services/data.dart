@@ -4,7 +4,7 @@ import 'package:rxdart/subjects.dart';
 
 BehaviorSubject<List<Book>> books = new BehaviorSubject.seeded([
   Book(
-    name: "Python For Data Science Science",
+    name: "Python For Data Science",
     description: "Learn Python for Data Science",
     author: "Micheal",
     picture: BlurImage(
