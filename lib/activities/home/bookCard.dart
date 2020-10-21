@@ -17,11 +17,17 @@ class BookCard extends StatelessWidget {
     return Container(
         width: width,
         height: height,
-        margin: EdgeInsets.symmetric(horizontal: 10),
+        margin: EdgeInsets.symmetric(horizontal: 10, vertical: 30),
         decoration: BoxDecoration(
-          color: Colors.grey[200],
-          borderRadius: BorderRadius.circular(borderRadius),
-        ),
+            color: Colors.grey[200],
+            borderRadius: BorderRadius.circular(borderRadius),
+            boxShadow: [
+              BoxShadow(
+                blurRadius: 20,
+                color: Colors.black26,
+                offset: Offset(0, 5),
+              ),
+            ]),
         child: Stack(
           children: [
             Positioned(
@@ -102,7 +108,7 @@ class BookCard extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(top: 13),
+                  margin: EdgeInsets.only(top: 14),
                   child: Row(
                     children: [
                       Expanded(
