@@ -1,4 +1,5 @@
 import 'package:flamingo/activities/home/activity.dart';
+import 'package:flamingo/activities/intro/activity.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -24,6 +25,6 @@ class Main extends StatelessWidget {
 class Flamingo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return HomeActivity();
+    return IntroActivity();
   }
 }

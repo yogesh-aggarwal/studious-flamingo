@@ -9,26 +9,27 @@ class BestBookWidget extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(left: 15, right: 15, bottom: 10),
             child: RichText(
-              text: TextSpan(children: [
-                TextSpan(
-                  text: "Best book of ",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 23,
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: "Best book of ",
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23,
+                    ),
                   ),
-                ),
-                TextSpan(
-                  text: "day",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 23,
-                    fontWeight: FontWeight.w700,
+                  TextSpan(
+                    text: "day",
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
-                ),
-              ]),
+                ],
+              ),
             ),
           ),
-          
         ],
       ),
     );
