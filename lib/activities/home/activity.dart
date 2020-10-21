@@ -16,7 +16,7 @@ class _HomeActivityState extends State<HomeActivity> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 15, vertical: 30),
+            margin: EdgeInsets.only(left: 15, right: 15, top: 30),
             child: RichText(
               text: TextSpan(children: [
                 TextSpan(
