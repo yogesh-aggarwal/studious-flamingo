@@ -17,13 +17,13 @@ class BookCard extends StatelessWidget {
     return Container(
         width: width,
         height: height,
-        margin: EdgeInsets.symmetric(horizontal: 10, vertical: 30),
+        margin: EdgeInsets.symmetric(horizontal: 15, vertical: 30),
         decoration: BoxDecoration(
             color: Colors.grey[200],
             borderRadius: BorderRadius.circular(borderRadius),
             boxShadow: [
               BoxShadow(
-                blurRadius: 20,
+                blurRadius: 15,
                 color: Colors.black26,
                 offset: Offset(0, 5),
               ),
