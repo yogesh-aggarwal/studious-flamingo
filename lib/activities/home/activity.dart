@@ -16,15 +16,13 @@ class _HomeActivityState extends State<HomeActivity> {
         Container(
           child: Image(
             image: AssetImage("assets/images/background.png"),
-            width: MediaQuery.of(context).size.width,
-            height: MediaQuery.of(context).size.height,
           ),
         ),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              margin: EdgeInsets.only(left: 15, right: 15, top: 30),
+              margin: EdgeInsets.only(left: 15, right: 15, top: 30, bottom: 10),
               child: RichText(
                 text: TextSpan(children: [
                   TextSpan(
