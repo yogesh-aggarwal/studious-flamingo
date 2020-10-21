@@ -16,6 +16,7 @@ class Chapter {
 class Book {
   final String name;
   final String description;
+  final String author;
   final double rating;
   final BlurImage picture;
   final List<Chapter> chapters;
@@ -23,6 +24,7 @@ class Book {
   Book({
     @required this.name,
     @required this.description,
+    @required this.author,
     @required this.rating,
     @required this.picture,
     @required this.chapters,
